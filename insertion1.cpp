@@ -16,7 +16,6 @@ int main()
 {
     int a,b,f;
     cin>>b;
-    cout<<endl;
     f=b;
     int c[b],d[b],e=0;
     for(;f>0;f--)
@@ -24,7 +23,6 @@ int main()
       cin>>d[f];
     }
     insertion_sort(d,b);
-    cout<<endl;
     for(;b>=f;f++)
     {
       cin>>c[f];
@@ -34,5 +32,5 @@ int main()
     {
       e=e+c[b]*d[b];
     }
-    cout<<endl<<e;
+    cout<<e<<endl;
 }
